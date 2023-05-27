@@ -20,7 +20,7 @@ class Scoreboard(Turtle):
         if self.score > self.high_score:
             self.high_score = self.score
         self.score = 0
-        self.refresh_score()
+        self.show_score()
 
     # def game_over(self):
     #     self.goto(0,0)
